@@ -36,6 +36,30 @@ Society philosophy merciful selfish sexuality depths overcome madness. Morality 
 <!-- the following is just a placeholder text, remove it!-->
 Against holiest pinnacle mountains merciful ideal society play disgust will ubermensch ultimate pinnacle victorious. Snare value law gains battle pious intentions revaluation strong. Insofar snare faith ideal oneself.
 
+```{r}
+library(ComputationalMovementAnalysisData)
+library(ggplot2)
+
+# Include tables with the function "kable"
+
+knitr::kable(head(wildschwein_BE))
+```
+
+<!-- the following is just a placeholder text, remove it!-->
+Revaluation evil aversion ultimate decrepit disgust decrepit eternal-return noble faithful pinnacle. Truth ascetic inexpedient decrepit free. Ubermensch free merciful mountains endless fearful decieve reason mountains will decrepit strong selfish depths. Overcome faith snare gains oneself transvaluation.
+
+```{r}
+# include plots automatically
+
+ggplot(schreck_locations, aes(E, N)) +
+  geom_point() +
+  coord_map()
+
+```
+
+
+
+
 
 ## Material and Methods
 
