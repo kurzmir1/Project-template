@@ -11,7 +11,7 @@ Analysis Geo 880**
 
 Which option do you choose:
 
-<!-- add an x in between the brackets -->
+<!-- replace the space between the brackets with an x to choose your option-->
 
 - [ ] Option A: Wild boar data
   - [ ] Find nesting sites
