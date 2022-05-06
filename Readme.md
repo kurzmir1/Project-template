@@ -7,17 +7,18 @@ Analysis Geo 880**
 |----------------|---------------------------------- |
 | **Data:**      | Wild Boar Movement Data           |
 | **Title:**     | The title of your project         |
-| **Student 1:** | Name of Student 1                 |
-| **Student 2:** | Name of Student 2                 |
+| **Student 1:** | Nina Poglic                |
+| **Student 2:** | Mirjam Kurz                 |
 
 ## Abstract 
 <!-- (50-60 words) -->
 
 ## Research Questions
-<!-- (50-60 words) -->
+1. Do they sleep 12 hourse?
+2. How much time do tthe spent moving around?
 
 ## Results / products
-<!-- What do you expect, anticipate? -->
+We find informations about wild pigs sleeping around 12 hours and were wondering if it is true.
 
 ## Data
 <!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
@@ -26,6 +27,13 @@ Analysis Geo 880**
 <!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
 
 ## R concepts
+readr        
+dplyr      
+ggplot2    
+sf           
+terra        
+lubridate
+tidyverse
 <!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
 
 ## Risk analysis
