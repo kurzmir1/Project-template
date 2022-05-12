@@ -15,7 +15,7 @@ Analysis Geo 880**
 
 ## Research Questions
 1. Do they sleep 12 hourse?
-2. How much time do tthe spent moving around?
+2. How much time do they spent moving around?
 
 ## Results / products
 We find informations about wild pigs sleeping around 12 hours and were wondering if it is true.
@@ -24,6 +24,7 @@ We find informations about wild pigs sleeping around 12 hours and were wondering
 <!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
 
 ## Analytical concepts
+
 <!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
 
 ## R concepts
@@ -40,4 +41,5 @@ tidyverse
 <!-- What could be the biggest challenges/problems you might face? What is your plan B? -->
 
 ## Questions? 
+
 <!-- Which questions would you like to discuss at the coaching session? -->
