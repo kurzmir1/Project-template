@@ -18,12 +18,17 @@ Analysis Geo 880**
 2. How much time do they spent moving around?
 
 ## Results / products
-We find informations about wild pigs sleeping around 12 hours and were wondering if it is true.
+We found informations about wild pigs sleeping around 12 hours and were wondering if this is true. We are assuming that this is the case and that we will find this movement pattern after our analysis.
 
 ## Data
+We will use Wild boar data. We believe that no additinal context data will be needed.
 <!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
 
 ## Analytical concepts
+- Movement spaces: continuous movement spaces
+- Properties of the movement: non-limited, active
+- Perspective of observation: Lagrange (GPS)
+
 
 <!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
 
