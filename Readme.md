@@ -11,17 +11,17 @@ Analysis Geo 880**
 | **Student 2:** | Mirjam Kurz                 |
 
 ## Abstract 
-<!-- (50-60 words) -->
+According to literature wild boar sleep for around 12 hours in the forest during the day. The aim of this project is to find out whether this behavioural pattern can be detected in the movement data of wild boar. If the data shows that the wild boar stay in one place in the forest for about  12 hours, we would conclude that they are sleeping there during this time. 
 
 ## Research Questions
-1. For how long do the wild boar sleep?
+1. For how long do the tracked wild boar sleep on average?
 2. Where do the wild boar sleep (forest or agricultural land)?
 
 ## Results / products
-According to literature wild boar sleep for around 12 hours in the forest during the day. We expect to find this movement pattern in our data after the analysis.
+We expect that the data shows, that the tracked wild boar stay in one place in the forest for around 12 hours. We would then conclude that the wild boars are sleeping for approximately 12 hours on average.
 
 ## Data
-We will use the wild boar data provided. Additionally, we need data about the habitats in the area. Can we get it from the geoportal of Bern?
+We will use the wild boar data provided. Additionally, we need data about the habitats in the area. 
 
 ## Analytical concepts
 Conceptual movement space:
@@ -47,24 +47,21 @@ packages:
 - lubridate
 - tidyverse   
     
-R concepts:
+Procedure:
 How long do the wild boar sleep?
-- calculate distance between consecutive points
+- calculate distance between consecutive points of each individual
 - filter for small values in distance between two consecutive points
 - calculate the whole time span of one section with small values in distance
 Where do the wild boar sleep?
 - assign habitat to coordinates
 - group "resting" trajectory parts by habitat
 - put the selected sections of "resting" trajectories on a map with habitats in the background
-
-
-<!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
-
+- 
 ## Risk analysis
-It might be difficult to distinguish between animals moving very slow and staying in one place?
-<!-- What could be the biggest challenges/problems you might face? What is your plan B? -->
+It might be difficult to distinguish between animals moving very slow and staying in one place? We would need to set a threshold.
+
 
 ## Questions? 
 Threshhold for "small values in distance"?
 Where can we get habitat data?
-<!-- Which questions would you like to discuss at the coaching session? -->
+
